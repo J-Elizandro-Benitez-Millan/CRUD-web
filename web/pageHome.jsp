@@ -22,7 +22,7 @@
         <h1>Hola <%=request.getSession().getAttribute("nombre") %> , Bienvenido </h1>
         
         
-        <p><a href = "https://github.com/J-Elizandro-Benitez-Millan/CRUD-Project" target="_blank"> Ir a Github </a></p>
+        <p><a href = "https://github.com/J-Elizandro-Benitez-Millan/CRUD-web.git"> Ir a Github </a></p>
         
         <p>Actualmente en uso: ${txtUsuario}</p>
         
