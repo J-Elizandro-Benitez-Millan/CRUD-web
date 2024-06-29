@@ -1,0 +1,7 @@
+CREATE TABLE usuarios (
+    numeroEmpleado VARCHAR(50) NOT NULL PRIMARY KEY,
+    nombre VARCHAR(50),
+    apellidos VARCHAR(50),
+    contrasena VARCHAR(50),
+    usuarioGenerado VARCHAR(50)
+);
