@@ -1,0 +1,56 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 29 jun 2024, 15:52:57
+    Author     : eliza
+*/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.cuerpoDeFormulario{
+    margin: 20px 30%;
+}
+
+.formularioLogin{
+    padding: 20px;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 20px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 20px;
+   
+    background: rgb(63,94,251);
+    background: rgb(131,58,180);
+    background: rgb(2,0,36);
+    background: -webkit-linear-gradient(90deg, #85a9b9,#8497b5,#c8c9d2);
+    background: linear-gradient(90deg, #85a9b9,#8497b5,#c8c9d2);
+}
+.btn{
+    margin: 0;
+    padding: 10px 30px  10px 30px;
+    border-radius: 15px;
+    font-family: sans-serif;
+    background-color: white;
+    transition: all .5s;
+}
+
+.btn:hover{
+    transition: all .5s;
+    border-color: black;
+    transform: translate(0px, -10px);
+    cursor: pointer;
+    box-shadow: 0px 0px 10px 4px white;
+}
+
+.txt{
+    border-radius: 10px;
+    font-size: 20px;
+}
+

@@ -1,0 +1,66 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : 27 jun 2024, 23:12:03
+    Author     : eliza
+*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url(../images/fondo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    color: white;
+}
+
+
+
+.menu{
+    padding: 20px;
+    text-align: center;
+    border-style: none solid solid solid;
+    border-radius: 0px 0px 50px 50px;
+    background: rgb(63,94,251);
+    background: rgb(131,58,180);
+    background: rgb(2,0,36);
+    background: -webkit-linear-gradient(90deg, #85a9b9,#8497b5,#c8c9d2);
+    background: linear-gradient(90deg, #85a9b9,#8497b5,#c8c9d2);
+}
+
+.menu ul li a{
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+.menu ul li{
+    font-size: 25px;
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    border-style: solid;
+    margin-right: 30px;
+    border-radius: 20px;
+    background: rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 10px 4px white;
+    transition: all .5s;
+
+}
+
+.menu ul li:hover{
+    transition: all .5s;
+    box-shadow: 0px 0px 10px 6px white;
+    background: rgba(0,0,0,0.9);
+    transform: translate(0px, -5px)
+}
